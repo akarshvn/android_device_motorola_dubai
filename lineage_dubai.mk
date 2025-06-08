@@ -15,6 +15,14 @@ $(call inherit-product, device/motorola/dubai/device.mk)
 TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Axion Flags
+AXION_MAINTAINER := akarshvn
+AXION_PROCESSOR := Snapdragon_778G+
+
+# Camera
+AXION_CAMERA_REAR_INFO := 50,50,2
+AXION_CAMERA_FRONT_INFO := 32
+
 PRODUCT_NAME := lineage_dubai
 PRODUCT_DEVICE := dubai
 PRODUCT_MANUFACTURER := motorola
