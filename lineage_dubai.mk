@@ -16,7 +16,7 @@ TARGET_DISABLE_EPPE := true
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Dolby
-$(call inherit-product, hardware/dolby/dolby.mk)
+$(call inherit-product, hardware/motorola/dolby/dolby.mk)
 
 # Axion Flags
 AXION_MAINTAINER := akarshvn
